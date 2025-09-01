@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>JS Basics Demo</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>JavaScript Basics Demo</h1>
+
+  <!-- Part 1: Variables and Conditionals -->
+  <section id="conditionals-section">
+    <h2>Greeting Based on Name & Age</h2>
+    <label for="nameInput">Name:</label>
+    <input type="text" id="nameInput" placeholder="Your name" />
+
+    <label for="ageInput">Age:</label>
+    <input type="number" id="ageInput" placeholder="Your age" />
+
+    <button id="greetBtn">Greet Me!</button>
+    <p id="greetingOutput"></p>
+  </section>
+
+  <!-- Part 2: Custom Functions -->
+  <section id="functions-section">
+    <h2>String Formatter</h2>
+    <label for="stringInput">Enter text:</label>
+    <input type="text" id="stringInput" placeholder="Some text" />
+    <button id="formatBtn">Format Text</button>
+    <p id="formattedOutput"></p>
+
+    <h2>Calculate Total Price</h2>
+    <label for="priceInput">Price per item:</label>
+    <input type="number" id="priceInput" value="10" step="0.01" />
+
+    <label for="quantityInput">Quantity:</label>
+    <input type="number" id="quantityInput" value="1" />
+
+    <button id="calcBtn">Calculate Total</button>
+    <p id="totalOutput"></p>
+  </section>
+
+  <!-- Part 3: Loops -->
+  <section id="loops-section">
+    <h2>Countdown (while loop)</h2>
+    <button id="countdownBtn">Start Countdown</button>
+    <p id="countdownOutput"></p>
+
+    <h2>Dynamic List (forEach loop)</h2>
+    <button id="listBtn">Show Fruits</button>
+    <ul id="fruitList"></ul>
+  </section>
+
+  <!-- Part 4: DOM Manipulation -->
+  <section id="dom-section">
+    <h2>Todo List</h2>
+    <label for="todoInput">New Todo:</label>
+    <input type="text" id="todoInput" placeholder="What to do?" />
+    <button id="addTodoBtn">Add Todo</button>
+    <ul id="todoList"></ul>
+
+    <h2>Toggle Dark Mode</h2>
+    <button id="themeToggleBtn">Toggle Theme</button>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
